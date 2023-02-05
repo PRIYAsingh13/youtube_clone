@@ -6,7 +6,7 @@
 
 }
 
-.top_container {
+.header_container {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid red; */
@@ -15,6 +15,7 @@
 
 .nav_left {
     display: flex;
+    align-items: center;
     /* border: 1px solid red; */
 
 }
@@ -41,17 +42,20 @@
 
 .nav_mid {
     display: flex;
+    align-items: center;
+
     /* border: 2px solid red; */
 }
 
 input {
     border: 1px solid rgb(24, 24, 26);
-    /* padding: 5%; */
+    padding-left: 5px;
     width: 540px;
     height: 40px;
     /* border: none; */
     border-radius: 50px;
     font-size: large;
+    color: grey;
     /* position: absolute; */
 }
 
@@ -60,13 +64,82 @@ input {
     align-items: center;
     /* border: 1px solid red; */
 }
+.search-logo{
+    margin-left: -10%;
+}
+.mic-logo{
+    margin-left: 10%;
+}
+
 
 .create-video,
 .bell-icon,
 .profile-pic {
     padding-right: 20px;
+    
 }
 
 .profile-pic img {
     border-radius: 50px;
+}
+
+/* ==========left sidebar========= */
+.left_container{
+    padding: 1% 2%;
+    width: 20%;
+    /* height: 50%; */
+    cursor: pointer;
+    /* border: 1px solid blue; */
+    
+}
+ .Liked:hover{
+    background-color: grey;
+} 
+.Home:hover{
+    background-color: grey;
+    
+
+}
+.Shorts:hover{
+    background-color: grey;
+
+}
+.subscription:hover{
+    background-color: grey;
+
+}
+.library:hover{
+    background-color: grey;
+
+}
+.History:hover{
+    background-color: grey;
+
+}
+.videos:hover{
+    background-color: grey;
+
+}
+.Watch-later:hover{
+    background-color: grey;
+
+}
+
+ .Home i,.Shorts i,.subscription i,.library i,.History i,.videos i,.Watch-later i,.Liked i{
+    font-size: large;
+    padding-right:20px ;
+    padding-bottom: 20px;
+
+    /* border: 1px solid red; */
+
+
+}
+.subscription img,.library img{
+    
+    height: 1.2em;
+    padding-right:40px ;
+    margin-bottom: 20px;
+    /* border: 1px solid green; */
+
+
 }
