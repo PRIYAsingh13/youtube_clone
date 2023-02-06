@@ -84,11 +84,14 @@ input {
 }
 
 /* ==========left sidebar========= */
+
+
 .left_container{
     padding: 1% 2%;
     width: 20%;
     /* height: 50%; */
     cursor: pointer;
+    
     /* border: 1px solid blue; */
     
 }
